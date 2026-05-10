@@ -1,20 +1,42 @@
 import { useState } from "react";
 
 const LETTERS = [
-  { When you miss me…
-“Close your eyes, Maa. Feel the warmth of my hand. I’m only a thought away. Distance exists only in kilometers — never in love.”},
-{When you feel tired…
-“Sit down. Make yourself a cup of tea. Let the world take care of me for a few hours. You’ve carried both of us long enough.”},
-{When you feel proud of me…
-“Everything I am is because of you. Every achievement of mine carries your fingerprints. This trophy belongs to you too, Mumma.”},
-{When you want to smile…
-“Remember the day we burnt the dosa and laughed so hard the neighbors knocked on the door? Just remember that. Always that. 💗”},
-{When you doubt yourself…
-“You raised an entire human with love, patience, and grace. There is nothing — and no one — you cannot handle.”},
-{When you just need a hug…
-“Hold yourself tightly. Consider that hug from me — wrapped with endless love too.”}
-];
+  {
+    when: "When you miss me...",
+    note:
+      "Close your eyes, Maa. Feel the warmth of my hand. I’m only a thought away. Distance exists only in kilometers — never in love."
+  },
 
+  {
+    when: "When you feel tired...",
+    note:
+      "Sit down. Make yourself a cup of tea. Let the world take care of me for a few hours. You’ve carried both of us long enough."
+  },
+
+  {
+    when: "When you feel proud of me...",
+    note:
+      "Everything I am is because of you. Every achievement of mine carries your fingerprints. This trophy belongs to you too, Mumma."
+  },
+
+  {
+    when: "When you want to smile...",
+    note:
+      "Remember the day we burnt the dosa and laughed so hard the neighbors knocked on the door? Just remember that. Always that. 💗"
+  },
+
+  {
+    when: "When you doubt yourself...",
+    note:
+      "You raised an entire human with love, patience, and grace. There is nothing — and no one — you cannot handle."
+  },
+
+  {
+    when: "When you just need a hug...",
+    note:
+      "Hold yourself tightly. Consider that hug from me — wrapped with endless love too."
+  }
+];
 export function OpenWhen() {
   const [open, setOpen] = useState<number | null>(null);
   return (
