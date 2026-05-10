@@ -2,12 +2,11 @@ import { useEffect, useState } from "react";
 import hero from "@/assets/mom/hero.jpeg";
 
 const QUOTES = [
-  “Mother… a single word that holds an entire world within it 💗”
-“A mother’s love is the heartbeat of the soul and the light of the home.”
-“If you exist, I exist — my dearest mother.”
-“She is sunshine wrapped in saree ✨”,
+  "Mother… a single word that holds an entire world within it 💗",
+  "A mother’s love is the heartbeat of the soul and the light of the home.",
+  "If you exist, I exist — my dearest mother.",
+  "She is sunshine wrapped in a saree ✨",
 ];
-
 export function Hero() {
   const [i, setI] = useState(0);
   const [text, setText] = useState("");
