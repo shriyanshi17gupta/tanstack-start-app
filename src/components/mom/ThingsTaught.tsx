@@ -1,10 +1,34 @@
 const THINGS = [
-{🌱 Being kind — “Even when the world isn’t.”}
-{💪 Being strong — “Quietly, gracefully, with all your heart.”}
-{🍳 Making tea — “With three spoons of love. Always.”}
-{📿 Praying — “And listening for the answers too.”}
-{💖 Forgiving — “First yourself. Everything else can follow.”}
-{✨ Dreaming — “Big, fearless, and full of light.”}
+  {
+    icon: "🌱",
+    title: "Being kind",
+    desc: "Even when the world isn’t."
+  },
+  {
+    icon: "💪",
+    title: "Being strong",
+    desc: "Quietly, gracefully, with all your heart."
+  },
+  {
+    icon: "🍳",
+    title: "Making tea",
+    desc: "With three spoons of love. Always."
+  },
+  {
+    icon: "📿",
+    title: "Praying",
+    desc: "And listening for the answers too."
+  },
+  {
+    icon: "💖",
+    title: "Forgiving",
+    desc: "First yourself. Everything else can follow."
+  },
+  {
+    icon: "✨",
+    title: "Dreaming",
+    desc: "Big, fearless, and full of light."
+  }
 ];
 
 export function ThingsTaught() {
