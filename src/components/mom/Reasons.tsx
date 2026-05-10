@@ -1,14 +1,18 @@
 const REASONS = [
-  “You loved me even before you met me.”
-“When the world got loud, you quietly gave me strength.”
-“One hug from you fixes my entire day.”
-“You believe in me more than I believe in myself.”
-“No matter where I go, the aroma of your kitchen will always mean ‘home.’”
-“You laugh wholeheartedly even at my terrible jokes.”
-“You forgive me even before I say sorry.”
-“You turn ordinary days into celebrations.”
-“I sleep, while your prayers stay awake for me.”
-“You are my first friend, and my last too. 💗”
+  const REASONS = [
+  "You loved me even before you met me.",
+  "When the world got loud, you quietly gave me strength.",
+  "One hug from you fixes my entire day.",
+  "You believe in me more than I believe in myself.",
+  "No matter where I go, the aroma of your kitchen will always mean 'home.'",
+  "You laugh wholeheartedly even at my terrible jokes.",
+  "You forgive me even before I say sorry.",
+  "You turn ordinary days into celebrations.",
+  "I sleep, while your prayers stay awake for me.",
+  "You are my first friend, and my last too. 💗"
+];
+
+export function Reasons() {
 ];
 
 export function Reasons() {
