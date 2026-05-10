@@ -1,5 +1,4 @@
 const REASONS = [
-  const REASONS = [
   "You loved me even before you met me.",
   "When the world got loud, you quietly gave me strength.",
   "One hug from you fixes my entire day.",
