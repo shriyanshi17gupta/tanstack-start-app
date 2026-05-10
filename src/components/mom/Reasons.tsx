@@ -12,9 +12,6 @@ const REASONS = [
 ];
 
 export function Reasons() {
-];
-
-export function Reasons() {
   return (
     <section className="relative px-4 py-24">
       <div className="mx-auto max-w-6xl">
